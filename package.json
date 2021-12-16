@@ -1,0 +1,52 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@react-native-community/viewpager": "^5.0.11",
+    "@react-navigation/bottom-tabs": "^5.11.15",
+    "@react-navigation/native": "^6.0.6",
+    "@react-navigation/stack": "^6.0.11",
+    "csv-parser": "^3.0.0",
+    "expo": "^42.0.0",
+    "expo-constants": "~11.0.1",
+    "expo-location": "~12.1.2",
+    "expo-status-bar": "~1.0.4",
+    "firebase": "^8.6.8",
+    "ionicons": "^5.5.3",
+    "link": "^0.1.5",
+    "link-react": "^3.0.0",
+    "react": "17.0.2",
+    "react-dom": "16.13.1",
+    "react-native": "0.63.4",
+    "react-native-bouncy-checkbox": "^2.1.7",
+    "react-native-cache": "^2.0.1",
+    "react-native-gesture-handler": "~1.10.2",
+    "react-native-images-collage": "^3.3.5",
+    "react-native-maps": "0.28.0",
+    "react-native-modal": "^13.0.0",
+    "react-native-paper": "^4.9.2",
+    "react-native-safe-area-context": "3.2.0",
+    "react-native-screens": "~3.4.0",
+    "react-native-vector-icons": "^9.0.0",
+    "react-native-web": "~0.13.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^19.0.2",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react-hooks": "^4.3.0"
+  },
+  "private": true
+}
