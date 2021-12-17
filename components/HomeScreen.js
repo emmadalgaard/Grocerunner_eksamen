@@ -72,37 +72,37 @@ function HomeScreen() {
             <ScrollView style={styles.scrollView}>
                     <View style={styles.container}>
                         <Pressable style={{flex:1}}
-                            onPress={() => Linking.openURL('https:// mummum.dk/indisk-dahl/')}>
-                            <Image source={dahl} to="https:// mummum.dk/indisk-dahl/" style={{width:'100%', height: 200}}/>
+                            onPress={() => Linking.openURL('https://mummum.dk/indisk-dahl/')}>
+                            <Image source={dahl} style={{width:'100%', height: 200}}/>
                         </Pressable>
 
                         <Pressable style={{flex:1}}
-                            onPress={() => Linking.openURL("https:// madsvin.com/pandekager/")}>
+                            onPress={() => Linking.openURL("https://madsvin.com/pandekager/")}>
                             <Image source={pandekager} style={{width:'100%', height: 200}}/>
                         </Pressable>
                     </View>
 
                     <View style={styles.container}>
                         <Pressable style={{flex:1}}
-                            onPress={() => Linking.openURL("https:// www.louiogbearnaisen.dk/2020/09/gnocchi.html")}>
+                            onPress={() => Linking.openURL("https://www.louiogbearnaisen.dk/2020/09/gnocchi.html")}>
                             <Image source={gnocchi} style={{width:'100%', height: 200}}/>
                         </Pressable>
 
                         <Pressable style={{flex:1}}
-                            onPress={() => Linking.openURL("https:// madogmonopolet.dk/paelle-opskrift/")}>
+                            onPress={() => Linking.openURL("https://madogmonopolet.dk/paelle-opskrift/")}>
                             <Image source={paella} style={{width:'100%', height: 200}}/>
                         </Pressable>
                     </View>
 
                     <View style={styles.container}>
                         <Pressable style={{flex:1}}
-                            onPress={() => Linking.openURL("https:// vegetariskhverdag.dk/2020/05/pasta-med-groenkaal-aerter-urter/")}>
+                            onPress={() => Linking.openURL("https://vegetariskhverdag.dk/2020/05/pasta-med-groenkaal-aerter-urter/")}>
                             <Image source={pasta} style={{width:'100%', height: 200}}/>
                         </Pressable>
 
                         <Pressable style={{flex:1}}
                             onPress={() => {
-                                Linking.openURL("https:// kiinus.dk/nem-opskrift-paa-de-bedste-kardemommesnurrer/"); 
+                                Linking.openURL("https://kiinus.dk/nem-opskrift-paa-de-bedste-kardemommesnurrer/");
                             }}>
                             <Image source={snurrer} style={{width:'100%', height: 200}}/>
                         </Pressable>
